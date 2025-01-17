@@ -1,0 +1,11 @@
+version: '3'
+services:
+  hugo:
+    image: hugomods/hugo:base-0.140.0
+    command: server --buildDrafts --buildFuture --disableFastRender
+    volumes:
+      - .:/src
+    ports:
+      - "1313:1313"
+    environment:
+      - HUGO_ENVIRONMENT=development
