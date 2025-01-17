@@ -2,7 +2,7 @@ version: '3'
 services:
   hugo:
     image: hugomods/hugo:base-0.140.0
-    command: new site . --force --format yaml
+    command: server --disableFastRender
     volumes:
       - .:/src
     ports:
