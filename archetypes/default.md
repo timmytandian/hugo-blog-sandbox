@@ -1,5 +1,9 @@
 ---
-date: '{{ .Date }}'
-draft: true
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+date: {{ .Date }}
+lastmod: {{ .Date }}
+title: "{{ replace .TranslationBaseName "-" " " | humanize }}"
+description:
+isCJKLanguage: false
+params:
+  author: Timmy Tandian
 ---
