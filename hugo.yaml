@@ -12,11 +12,11 @@ outputFormats:
 
 menus:
   main:
-    - name: tech-blog
-      pageRef: /tech-blog/
+    - name: tech posts
+      pageRef: /tech-posts/
       weight: 1
-    - name: lifestyle-blog
-      pageRef: /lifestyle-blog/
+    - name: lifestyle posts
+      pageRef: /lifestyle-posts/
       weight: 2
     - name: about
       pageRef: /about/
