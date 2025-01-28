@@ -12,5 +12,10 @@
   <input type="text" id="edit-subject" name="subject" placeholder="{{ i18n "contact_subject_placeholder" }}" required>
   <label for="edit-message">{{ i18n "contact_message" }}</label>
   <textarea id="edit-message" name="message" rows="5" placeholder="{{ i18n "contact_message_placeholder" }}" required></textarea>
+
+  <div class="cf-turnstile" data-sitekey="0x4AAAAAAA6lHxQVynZeDu1q"></div>
+  <br>
   <button type="submit" name="submit" disabled>{{ i18n "contact_submit" }}</button>
 </form>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
