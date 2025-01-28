@@ -1,6 +1,6 @@
 ---
 title: "Make the Web Fun Again"
-
+date: '2025-01-16T01:23:45Z'
 ---
 
 # Hugo

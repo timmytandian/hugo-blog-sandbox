@@ -1,6 +1,6 @@
 ---
 title: "About"
-
+date: '2025-01-16T01:23:45Z'
 ---
 
 Welcome! I’m a tech enthusiast transitioning from IT System Administration to Cloud and DevOps Engineering. This blog is my space to share knowledge, document my learning journey, and showcase projects that blend automation, cloud computing, and DevOps practices. I'm also thinking to share a slice of my life as well in this blog, just for my refreshment.
