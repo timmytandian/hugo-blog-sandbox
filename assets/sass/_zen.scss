@@ -231,7 +231,7 @@ main {
     }
 
     &:focus:invalid {
-      background-color: var(--color-warning-bg);
+      background-color: var(--color-watermark);
     }
   }
 }
