@@ -10,6 +10,9 @@ outputFormats:
     isPlainText: true
     notAlternative: true
 
+outputs:
+  home: ["HTML", "SearchIndex"]
+
 menus:
   main:
     - name: tech posts
