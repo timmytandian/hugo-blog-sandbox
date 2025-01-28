@@ -90,7 +90,7 @@ $colors: (
   row-even:               transparent,
 
   status:                 $green,
-  status-bg:              color.scale($green, $lightness: 62%),
+  status-bg:              color.scale($brand-light, $lightness: 82%),
   warning:                $black,
   warning-bg:             color.scale($yellow, $lightness: 45%),
   warning-border:         $yellow,
