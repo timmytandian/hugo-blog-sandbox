@@ -2,6 +2,7 @@ baseurl: "https://sandbox-blog.timmytandian.com/"
 title: "Sandbox timmytandian Blog"
 theme: "zen"
 languageCode: "en-GB"       # Set your language code (only needed for none multilingual sites).
+enableEmoji: true
 
 outputFormats:
   SearchIndex:
