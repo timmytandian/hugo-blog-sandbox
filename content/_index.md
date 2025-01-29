@@ -1,22 +1,14 @@
 ---
-title: "Make the Web Fun Again"
+title: "Welcome to My Blog"
 date: '2025-01-16T01:23:45Z'
 ---
 
-# Hugo
+# Foreword
+Welcome! I’m a tech enthusiast transitioning from IT System Administration to Cloud and DevOps Engineering. This blog is my space to document my learning journey, showcase projects, express opinion that worth sharing. I'm also thinking to share a slice of my life as well in this blog, just for my refreshment.
 
-## Make the Web Fun Again
+Topics that I'm thinking to write:
+- My notes on Cloud, DevOps, Linux, and HomeLabs tinkering.
+- Personal insights from my hands-on experience with tools like Terraform, AWS, and Python.
+- A beginner-friendly approach to tackle complex topics like Infrastructure as Code, CI/CD pipelines, and (soon) Kubernetes.
 
-Introducing Hugo, a new idea for making website creation simple again. Hugo works flexibly with many formats, and is ideal for blogs, docs, portfolios and much more. Hugo’s speed fosters creativity—it makes building a website fun again.
-
-## Run Anywhere
-
-Hugo is quite possibly the easiest software to install you’ve ever used: simply download and run! Hugo doesn’t depend on administrative privileges, databases, runtimes, interpreters or external libraries. Sites built with Hugo can be deployed on S3, GitHub Pages, Dropbox or any web host.
-
-## Fast & Powerful
-
-Hugo is designed for speed and performance. Great care has been taken to ensure build time with Hugo is as short as possible. We’re talking milliseconds to build your entire site—for most setups!
-
-## Flexible
-
-Hugo is designed to work the way you do. Organize your content however you want with any URL structure. Group your content using your own indexes and categories. Define your own metadata in any format: YAML, TOML or JSON. Best of all, Hugo handles all these variations with virtually no configuration. Hugo just works.
+Whether you’re exploring tech for the first time, advancing your career, or simply curious about me, there’s something here for you. Join me as I learn, build, and share!
