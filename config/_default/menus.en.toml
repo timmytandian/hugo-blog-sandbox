@@ -26,9 +26,14 @@
   weight = 30
 
 [[main]]
-  name = "cloud-resume"
+  name = "cloud-resume ⎘"
   url = "https://timmytandian.com"
   weight = 40
+
+[[main]]
+  name = "contact"
+  pageRef = "contact"
+  weight = 50
 
 [[main]]
   identifier = "appearance"
