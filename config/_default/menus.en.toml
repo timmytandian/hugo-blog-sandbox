@@ -11,12 +11,12 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "tech-posts"
+  name = "tech-blog"
   pageRef = "tech-posts"
   weight = 10
 
 [[main]]
-  name = "lifestyle-posts"
+  name = "lifestyle-blog"
   pageRef = "lifestyle-posts"
   weight = 20
 
@@ -34,12 +34,6 @@
   name = "contact"
   pageRef = "contact"
   weight = 50
-
-[[main]]
-  identifier = "appearance"
-  weight = 98
-  [main.params]
-    action = "appearance"
 
 [[main]]
   identifier = "search"

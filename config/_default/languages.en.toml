@@ -8,14 +8,14 @@ copyright = "This site is licensed under a [Creative Commons Attribution-NonComm
 
 [params]
   dateFormat = "2 January 2006"
-  mainSections = ["tech-blog", "lifestyle-blog"]
+  mainSections = ["tech-posts", "lifestyle-posts"]
   description = "Timmy Tandian's sandbox blog"
 
 [params.author]
-  name = "Timmy Tandian"
+  name = "timmy tandian"
   image = "img/author.jpg"
   headline = "I'm only human"
-  bio = "A little bit about you"
+  bio = "IT Professional | Cloud Engineer | DevOps Engineer"
   links = [
     { link = "https://timmytandian.com/" },
     { github = "https://github.com/timmytandian" },
