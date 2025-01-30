@@ -2,6 +2,7 @@
 title: "About Me"
 date: '2025-01-16T01:23:45Z'
 lastmod: "2025-01-29T16:42:45+09:00"
+showPagination: false
 ---
 
 
