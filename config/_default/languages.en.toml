@@ -1,0 +1,23 @@
+languageCode = "en-GB"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "Sandbox timmytandian Blog"
+copyright = "This site is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License]( https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+
+[params]
+  dateFormat = "2 January 2006"
+  mainSections = ["tech-posts", "lifestyle-posts"]
+  description = "Timmy Tandian's sandbox blog"
+
+[params.author]
+  name = "timmy tandian"
+  image = "img/author.jpg"
+  headline = "I'm only human"
+  bio = "IT Professional | Cloud Engineer | DevOps Engineer"
+  links = [
+    { link = "https://timmytandian.com/" },
+    { github = "https://github.com/timmytandian" },
+    { linkedin = "https://www.linkedin.com/in/timothyalexandertandian/" },
+  ]

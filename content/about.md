@@ -38,6 +38,6 @@ Here are the tech stack that I have accummulated experience over time.
 When I’m not geeking out over tech, you can find me enjoying Latin dance — Salsa, Bachata, and Kizomba are my favorites :man_dancing::mirror_ball::woman_dancing:. Dancing and technology might seem worlds apart, but they both teach me creativity and rhythm in their own unique ways.
 
 ## How To Contact Me
-Feel free to get in touch via the link below or if you prefer email, you can send me a message via the [Contact]({{< ref "/contact" >}})
+Feel free to get in touch via the link below or if you prefer email, you can send me a message from the [contact form]({{< ref "contact" >}}).
 
 Thanks for stopping by, and I hope you’ll join me on this journey!
