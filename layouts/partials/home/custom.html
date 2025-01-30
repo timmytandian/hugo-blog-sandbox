@@ -1,0 +1,27 @@
+<article 
+  class="{{ if not .Site.Params.homepage.showRecent }}
+    h-full
+  {{ end }} prose dark:prose-invert max-w-full"
+>
+  <section class="text-center flex flex-col"> {{ partial "profile.html" }} </section>
+  <div class="text-center">
+    <a
+      class="inline-block !rounded-md bg-primary-600 px-4 py-1 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+      href="/about"
+      target="_self"
+      role="button"
+    >
+      Learn more
+    </a>
+  </div>
+  {{ with .Title }}
+    <header>
+      <h1>{{ . | emojify }}</h1>
+    </header>
+  {{ end }}
+  <section>{{ .Content | emojify }}</section>
+</article>
+
+<section>
+  {{ partial "recent-articles.html" . }}
+</section>
