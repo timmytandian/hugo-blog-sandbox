@@ -2018,6 +2018,10 @@ code {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
 .hidden {
   display: none;
 }
@@ -2945,6 +2949,11 @@ code {
 .dark\:text-neutral-100:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgba(var(--color-neutral-100), var(--tw-text-opacity, 1));
+}
+
+.dark\:text-neutral-200:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-neutral-200), var(--tw-text-opacity, 1));
 }
 
 .dark\:text-neutral-300:is(.dark *) {
