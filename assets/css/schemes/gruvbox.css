@@ -1,0 +1,20 @@
+/* Use this site to generate color: https://tailtools.app/palette-generator */
+
+:root {
+    --color-neutral: 249,245,215;
+
+    /* color-neutral */
+    /* donkey: --color-neutral-50: 251, 250, 249;	--color-neutral-100: 229, 224, 218;	--color-neutral-200: 207, 199, 187;	--color-neutral-300: 185, 173, 157;	--color-neutral-400: 160, 145, 125;	--color-neutral-500: 139, 127, 110;	--color-neutral-600: 119, 109, 94;	--color-neutral-700: 99, 90, 78;	--color-neutral-800: 79, 72, 62;	--color-neutral-900: 59, 54, 46;	--color-neutral-950: 39, 35, 30; */
+    /* masala: --color-neutral-50: 246, 246, 246;	--color-neutral-100: 203, 200, 199;	--color-neutral-200: 159, 155, 153;	--color-neutral-300: 115, 109, 106;	--color-neutral-400: 76, 69, 66;	--color-neutral-500: 66, 61, 57;	--color-neutral-600: 57, 52, 49;	--color-neutral-700: 47, 43, 41;	--color-neutral-800: 38, 34, 32;	--color-neutral-900: 28, 26, 24;	--color-neutral-950: 18, 17, 16; */
+    /* sandstone: --color-neutral-50: 248, 248, 247;	--color-neutral-100: 216, 212, 209;	--color-neutral-200: 183, 176, 170;	--color-neutral-300: 150, 140, 131;	--color-neutral-400: 118, 105, 95;	--color-neutral-500: 103, 92, 83;	--color-neutral-600: 88, 79, 71;	--color-neutral-700: 73, 65, 59;	--color-neutral-800: 58, 52, 47;	--color-neutral-900: 43, 39, 35;	--color-neutral-950: 29, 26, 23; */
+    /* pine-cone:*/ --color-neutral-50: 247, 247, 246;	--color-neutral-100: 209, 206, 204;	--color-neutral-200: 171, 165, 161;	--color-neutral-300: 133, 125, 118;	--color-neutral-400: 97, 87, 80;	--color-neutral-500: 85, 76, 70;	--color-neutral-600: 72, 65, 60;	--color-neutral-700: 60, 54, 50;	--color-neutral-800: 48, 43, 39;	--color-neutral-900: 36, 32, 29;	--color-neutral-950: 23, 21, 19;
+    
+    /* color-primary */
+    /* hacienda: --color-primary-50: 250, 250, 244;	--color-primary-100: 224, 224, 186;	--color-primary-200: 198, 198, 129;	--color-primary-300: 173, 172, 72;	--color-primary-400: 144, 143, 25;	--color-primary-500: 126, 125, 22;	--color-primary-600: 108, 107, 18;	--color-primary-700: 90, 89, 15;	--color-primary-800: 71, 71, 12;	--color-primary-900: 53, 53, 9;	--color-primary-950: 35, 35, 6; */
+    /* spicy-mustard: --color-primary-50: 248, 248, 243;	--color-primary-100: 215, 213, 183;	--color-primary-200: 181, 179, 122;	--color-primary-300: 148, 144, 62;	--color-primary-400: 115, 110, 13;	--color-primary-500: 100, 96, 12;	--color-primary-600: 86, 82, 10;	--color-primary-700: 71, 68, 8;	--color-primary-800: 57, 55, 7;	--color-primary-900: 42, 41, 5;	--color-primary-950: 28, 27, 3; */
+    /* key-lime-pie:*/ --color-primary-50: 251, 252, 244;	--color-primary-100: 234, 235, 190;	--color-primary-200: 216, 218, 136;	--color-primary-300: 198, 201, 81;	--color-primary-400: 175, 178, 36;	--color-primary-500: 153, 155, 32;	--color-primary-600: 131, 133, 27;	--color-primary-700: 109, 110, 22;	--color-primary-800: 86, 88, 18;	--color-primary-900: 64, 65, 13;	--color-primary-950: 42, 43, 9; 
+
+    /* color-secondary */
+    /* golden-grass: --color-secondary-50: 253, 250, 244;	--color-secondary-100: 243, 224, 188;	--color-secondary-200: 233, 199, 133;	--color-secondary-300: 223, 173, 77;	--color-secondary-400: 204, 145, 31;	--color-secondary-500: 178, 127, 27;	--color-secondary-600: 153, 109, 23;	--color-secondary-700: 127, 90, 19;	--color-secondary-800: 101, 72, 16;	--color-secondary-900: 75, 54, 12;	--color-secondary-950: 49, 35, 8; */
+    /* tapestry:*/ --color-secondary-50: 251, 247, 249;	--color-secondary-100: 232, 208, 219;	--color-secondary-200: 212, 169, 188;	--color-secondary-300: 193, 129, 158;	--color-secondary-400: 168, 93, 127;	--color-secondary-500: 147, 81, 111;	--color-secondary-600: 126, 70, 95;	--color-secondary-700: 104, 58, 79;	--color-secondary-800: 83, 46, 63;	--color-secondary-900: 62, 34, 47;	--color-secondary-950: 41, 23, 31;
+}
