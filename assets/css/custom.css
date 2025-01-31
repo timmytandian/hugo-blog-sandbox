@@ -1,0 +1,66 @@
+/* To remove the backtick from Congo's default inline code snippets (` ` in markdown language) */
+.prose :where(code):not(:where([class~="not-prose"] *))::before {
+	content: unset !important;
+}
+.prose :where(code):not(:where([class~="not-prose"] *))::after {
+	content: unset !important;
+}
+
+/* To remove the quote from Congo's default block quote ('>' in markdown language) */
+.prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"] *))::before {
+	content: unset !important;
+}
+.prose :where(blockquote p:last-of-type):not(:where([class~="not-prose"] *))::after {
+	content: unset !important;
+}
+
+/* To set the second nested unordered list item bullet style as a square instead of a circle */
+ul > li > ul {
+	list-style-type: square !important;
+}
+
+/* The styles below target input fields within the contact form named "contact" */
+/* Default state (light) */
+form[name="contact"] input,
+form[name="contact"] textarea {
+  background-color: rgb(249, 250, 251); /* bg-gray-50 */
+  border-color: rgb(209, 213, 219); /* border-gray-300 */
+}
+/* Default state (dark) */
+html.dark form[name="contact"] input,
+html.dark form[name="contact"] textarea {
+  background-color: rgb(38, 38, 38); /* dark:bg-neutral-800 */
+  border-color: rgb(75 85 99); /* dark:border-gray-600 */
+}
+
+/* Invalid state (light) */
+form[name="contact"] input:invalid:focus,
+form[name="contact"] textarea:invalid:focus {
+  background-color: rgb(254, 226, 226); /* focus:invalid:bg-red-100 */
+}
+/* Invalid state (dark) */
+html.dark form[name="contact"] input:invalid:focus,
+html.dark form[name="contact"] textarea:invalid:focus {
+  background-color: rgb(69, 10, 10); /* focus:invalid:bg-red-950 */
+}
+
+/* Valid state (light) */
+form[name="contact"] input:valid:focus,
+form[name="contact"] textarea:valid:focus {
+  background-color: rgb(240, 253, 244); /* focus:valid:bg-green-50 */
+}
+/* Valid state (dark) */
+html.dark form[name="contact"] input:valid:focus,
+html.dark form[name="contact"] textarea:valid:focus {
+  background-color: rgb(2, 44, 34); /* focus:valid:bg-emerald-950 */
+}
+
+/* Placeholder text (light mode) */
+form[name="contact"] input::placeholder {
+  font-style: italic;
+}
+/* Placeholder text (dark mode) */
+html.dark form[name="contact"] input::placeholder {
+  color: rgb(82, 82, 91); /* dark:placeholder-zinc-600 */
+  font-style: italic;
+}
