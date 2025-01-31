@@ -30,7 +30,7 @@ Here are the tech stack that I have accummulated experience over time.
 | :package: Containers & Orchestration        | `Docker`                          |
 | :wrench: DevOps Tools                       | `GitHub Actions`                  |
 | :scroll: Infrastructure as Code (IaC)       | `Terraform`, `Ansible`            |
-| :keyboard: Programming & Scripting Language | `Python`, `Bash`, `PowerShell`, a bit of `JavaScript` |
+| :keyboard: Programming & Scripting Language | `Python`, `Bash`, `PowerShell`, `JavaScript` (a bit :pinching_hand:)|
 | :desktop_computer: System Administration    | `Windows`, `Linux`                |
 
 
@@ -42,3 +42,7 @@ When I’m not geeking out over tech, you can find me enjoying Latin dance — S
 Feel free to get in touch via the link below or if you prefer email, you can send me a message from the [contact form]({{< ref "contact" >}}).
 
 Thanks for stopping by, and I hope you’ll join me on this journey!
+
+> Intellectual growth should commence at birth and cease only at death.
+> 
+> Albert Einstein
