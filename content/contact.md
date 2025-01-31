@@ -6,6 +6,7 @@ showReadingTime: false
 showDate: false
 showAuthor: false
 showPagination: false
+layout: contact
 ---
 
 If you prefer email, you can contact me via the form below.
