@@ -1,15 +1,6 @@
-/* Override the prose lead color in dark mode. */
-/* Change from colors.neutral.500 to colors.neutral.400 */
-html.dark .prose :where([class~="lead"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  /* color: rgb(97, 87, 80);    /* gruvbox */
-  color: rgb(82, 94, 90);    /* everforest */
-  font-size: 1.25em;
-  line-height: 1.6;
-  margin-top: 1.2em;
-  margin-bottom: 1.2em;
-}
-
-
+/* **************************************************************************** */
+/* Backtick and quotes in inline code snippets, unordered list bullet           */
+/* **************************************************************************** */
 /* To remove the backtick from Congo's default inline code snippets (` ` in markdown language) */
 .prose :where(code):not(:where([class~="not-prose"] *))::before {
 	content: unset !important;
@@ -31,6 +22,9 @@ ul > li > ul {
 	list-style-type: square !important;
 }
 
+/* **************************************************************************** */
+/* Contact Form coloring                                                        */
+/* **************************************************************************** */
 /* The styles below target input fields within the contact form named "contact" */
 /* Default state (light) */
 form[name="contact"] input,
@@ -75,4 +69,50 @@ form[name="contact"] input::placeholder {
 html.dark form[name="contact"] input::placeholder {
   color: rgb(82, 82, 91); /* dark:placeholder-zinc-600 */
   font-style: italic;
+}
+
+/* **************************************************************************** */
+/* Override the prose lead color in dark mode.                                  */
+/* **************************************************************************** */
+/* Change from colors.neutral.500 to colors.neutral.400 */
+html.dark .prose :where([class~="lead"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  /* color: rgb(97, 87, 80);    /* gruvbox */
+  color: rgb(82, 94, 90);    /* everforest */
+  font-size: 1.25em;
+  line-height: 1.6;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+/* **************************************************************************** */
+/* Table of contents (TOC) margin                                               */
+/* **************************************************************************** */
+/* Custom styles for Hugo table of contents */
+.toc nav {
+  /* Navigation container */
+  margin: 0;
+  
+}
+
+.toc nav ul {
+  /* All unordered lists in TOC */
+  margin: 0; 
+}
+
+.toc nav li {
+  /* All list items */
+  margin: 0.1rem 0;
+  line-height: 1.3;
+}
+
+
+/* Optional: style the links */
+.toc nav a {
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+.toc nav a:hover {
+  text-decoration: underline;  
 }
