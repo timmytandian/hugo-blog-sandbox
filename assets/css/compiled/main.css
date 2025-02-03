@@ -2584,6 +2584,11 @@ code {
   color: rgba(var(--color-neutral), var(--tw-text-opacity, 1));
 }
 
+.text-neutral-300 {
+  --tw-text-opacity: 1;
+  color: rgba(var(--color-neutral-300), var(--tw-text-opacity, 1));
+}
+
 .text-neutral-400 {
   --tw-text-opacity: 1;
   color: rgba(var(--color-neutral-400), var(--tw-text-opacity, 1));
@@ -2886,6 +2891,11 @@ code {
 
 .dark\:hidden:is(.dark *) {
   display: none;
+}
+
+.dark\:border-neutral-500:is(.dark *) {
+  --tw-border-opacity: 1;
+  border-color: rgba(var(--color-neutral-500), var(--tw-border-opacity, 1));
 }
 
 .dark\:border-neutral-600:is(.dark *) {

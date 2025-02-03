@@ -4,7 +4,35 @@
   >
     {{ i18n "article.table_of_contents" }}
   </summary>
+  
+  {{/* Match H1 through H4 and extract the text */}}
+  {{ $headers := findRE "<h[1-4](?:[^>]*?)>.*?</h[1-4]>" .Content }}
+  
+  {{/* Create table of content links for all matched headers */}}
   <div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
-    {{ .TableOfContents | emojify }}
+      <nav id="TableOfContents">
+          <ul>
+              {{ range $headers }}
+                  {{ $level := int (substr . 2 1) }}  {{/* get the second character (substring) of "H1" or "H2/3/4" */}}
+                  {{ $cleanText := replaceRE "<[^>]+>" "" . }}  {{/* removes all HTML tags */}}
+                  {{ $cleanText = replaceRE "\\s*#\\s*$" "" $cleanText }}  {{/* removes trailing # anchor symbols */}}
+
+                  {{ $href := "" }}
+                  {{ with findRE "id=\"([^\"]+)\"" . }}
+                      {{ $href = index (split (index . 0) "\"") 1 }}
+                  {{ end }}
+
+                  <li class="toc-h{{ $level }}" 
+                      style="
+                          margin-left: {{ mul (sub $level 1) 1 }}rem;   {{/* nested indentation */}}
+                          {{ if eq $level 1 }}font-size: 1.25rem;       {{/* if H1, font-size: 1.25rem */}}
+                          {{ else if eq $level 2 }}font-size: 1.1rem;   {{/* if H1, font-size: 1.1rem */}}
+                          {{ else }}font-size: 1rem;{{ end }}           {{/* if H3 or H4, default font size */}}
+                      ">
+                      <a href="#{{ $href }}">{{ $cleanText | emojify | safeHTML }}</a>
+                  </li>
+              {{ end }}
+          </ul>
+      </nav>
   </div>
 </details>
