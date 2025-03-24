@@ -4,4 +4,5 @@ title: 'Natto'
 categories: 'food'
 tags: ['natto', 'homemade']
 ---
+Natto... Oh natto...
 Natto is made from soy beans.
